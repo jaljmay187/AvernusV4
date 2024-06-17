@@ -1,15 +1,12 @@
 <p align="center"> 
-<a href="https://github.com/GataNina-Li"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=GataBot-MD++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"></a> 
+<a href="https://github.com/glytglobal"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃++%F0%9F%90%88;»+𝐏𝐨𝐰𝐞𝐫𝐞𝐝+𝐁𝐲+𝐆𝐋+𝐘𝐓'+𝐌𝐗+%F0%9F%92%96" height="90px"></a> 
 </p>
  
 <p align="center">
-<img src="https://i.imgur.com/kd8sus3.jpeg" alt="GataBot-MD" width="800"/>
-  
-> Antes de usar este repositorio, visita la **[Política de GataBot. 😼](https://github.com/GataNina-Li/GataBot-MD/blob/master/terms.md)** 
-</p>
+<img src="https://telegra.ph/file/eebb4f40ccc74d86086b5.jpg" alt="𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃 : 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭" width="800"/>
 
 <p align="center">
-<a href="#"><img title="GataBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
+<a href="#"><img title="𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃 : 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭" src="https://img.shields.io/badge/𝐒𝐈 𝐓𝐄 𝐀𝐆𝐑𝐀𝐃𝐀 𝐄𝐋 𝐁𝐎𝐓 𝐑𝐄𝐆𝐀𝐋𝐀𝐌𝐄 𝐔𝐍𝐀 𝐄𝐒𝐓𝐑𝐄𝐋𝐋𝐈𝐓𝐀-blue?colorA=#0d19ff&colorB=#0d19ff&style=for-the-badge"></a> 
 <img src="https://i.pinimg.com/originals/d4/3c/90/d43c902873d4db8c85974dfd0798030b.gif" height="28px">
 </p>  
 
