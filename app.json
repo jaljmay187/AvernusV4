@@ -1,13 +1,13 @@
 {
-"name": "GataBot-MD",
-"website": "https://github.com/GataNina-Li",
+"name": "AvernusV4",
+"website": "https://github.com/glytglobal",
 "description": "Super Bot WhatsApp",
-"repository": "https://github.com/GataNina-Li/GataBot-MD",
-"logo": "https://telegra.ph/file/b46f45b5b69f311db31c7.jpg",
-"success_url": "https://github.com/GataNina-Li/GataBot-MD",
+"repository": "https://github.com/glytglobal/AvernusV4",
+"logo": "https://telegra.ph/file/eebb4f40ccc74d86086b5.jpg",
+"success_url": "https://github.com/glytglobal/AvernusV4",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
-"termux", "superbot", "multi-device", "md", "official", "javascript", "gatabot"],
+"termux", "superbot", "multi-device", "md", "official", "javascript", "avernusbot"],
 "image": "heroku/nodejs",
 "buildpacks": [
 { "url": "heroku/nodejs" },
