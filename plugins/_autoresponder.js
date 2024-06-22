@@ -1,4 +1,4 @@
-import { sticker } from '../lib/sticker.js'
+/*import { sticker } from '../lib/sticker.js'
 let handler = m => m
 
 handler.all = async function (m, {conn}) {
@@ -10,4 +10,4 @@ this.sendFile(m.chat, stiker, 'sticker.webp', null, m, false, {
 contextInfo: { externalAdReply: { title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈', body: '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨', sourceUrl: md, thumbnail: imagen2}}})}
     
 return !0 }
-export default handler
+export default handler*/
