@@ -18,7 +18,7 @@ _GRACIAS POR USAR AVERNUSBOT-MD SI NECESITAS AYUDA O ASISTENCIA EN LA INSTALACIO
 
 *---------------------*`
 
-await conn.sendFile(m.chat, pp, 'Hola.mp3', smsowner, fkontak)
+await conn.sendFile(m.chat, pp, smsowner, fkontak)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
