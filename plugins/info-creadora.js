@@ -23,33 +23,10 @@ _GRACIAS POR USAR AVERNUSBOT-MD SI NECESITAS AYUDA O ASISTENCIA EN LA INSTALACIO
 
 *---------------------*`
 
-
-let biografiaBot = await conn.fetchStatus(conn.user.jid.split('@')[0] + '@s.whatsapp.net').catch(_ => 'undefined')
-let bioBot = biografiaBot.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto1() : desc2}`
-
-let contacts = global.official.filter(c => c[2] === 1)
-let lista = []
-for (let i = 0; i < contacts.length; i++) {
-contact = contacts[i]
-number = String(contact[0])
-ofc = await conn.getName(number + '@s.whatsapp.net') //String(contact[1])
-let biografia = await conn.fetchStatus(number +'@s.whatsapp.net').catch(_ => 'undefined')
-let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto2() : desc2}`
-
-nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : official[4][0] == String(contact[0]) ? official[4][1] : lenguajeGB.smsContacto3() 
-description = official[0][0] == String(contact[0]) ? '𝐒𝐎𝐋𝐎 𝐓𝐄𝐌𝐀𝐒 𝐃𝐄 𝐀𝐕𝐄𝐑𝐍𝐔𝐒' : official[1][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : desc === '' ? lenguajeGB.smsContacto5() : desc
-correo = official[0][0] == String(contact[0]) ? 'avernusglobal@gmail.com' : official[1][0] == String(contact[0]) ? 'avernusglobal@gmail.com' : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto6() : mail === '' ? lenguajeGB.smsContacto6() : mail
-lugar = official[0][0] == String(contact[0]) ? '🇦🇷 Argentina' : official[1][0] == String(contact[0]) ? '🇨🇴 Colombia' : official[2][0] == String(contact[0]) ? '🇳🇮 Nicaragua' : official[3][0] == String(contact[0]) ? '🇵🇾 Paraguay' : country === '' ? '🇵🇪 Perú' : country
-enlace = official[0][0] == String(contact[0]) ? 'https://github.com/glytglobal' : official[1][0] == String(contact[0]) ? 'https://chat.whatsapp.com/BlfrM8qGlef5UUMkeLp21T' : official[2][0] == String(contact[0]) ? 'https://whatsapp.com/channel/0029VadwlhHJuyA8lV8Ept3z' : official[3][0] == String(contact[0]) ? 'https://chat.whatsapp.com/BlfrM8qGlef5UUMkeLp21T' : md 
-
-lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://chat.whatsapp.com/BlfrM8qGlef5UUMkeLp21T' : null]) }  
-lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'avernusglobal@gmail.com' : mail, lenguajeMY.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
-await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
-
-} catch (e) {
-await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
-console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
-console.log(e)}} 
-handler.command = /^(contactos?|owner?|creador?)$/i //['contacto', 'contact']  
+await conn.sendFile(m.chat, pp, 'Hola.mp3', cat, fkontak)
+}
+handler.help = ['owner', 'creator']
+handler.tags = ['info']
+handler.command = /^(owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i
 
 export default handler
