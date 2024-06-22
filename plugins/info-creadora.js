@@ -1,12 +1,7 @@
-//CÓDIGO CREADO GRACIAS A https://github.com/Azami19 & https://github.com/GataNina-Li
-//Puedes editar el país,enlaces, los números se editan desde el config.js
-import fetch from 'node-fetch'
-
-let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-try{
-let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
-let pp = gataImg
-const cat = `*---------------------*
+var handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
+let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+let pp = creatorimg.getRandom()        
+const smsowner = `*---------------------*
 
 ◆ *ASISTENCIA:*
 _GRACIAS POR USAR AVERNUSBOT-MD SI NECESITAS AYUDA O ASISTENCIA EN LA INSTALACION DEL BOT O SUS COMANDOS O REPORTAR ALGUN ERROR, PUEDES COMUNICAR CON NUESTRO EQUIPO DE SOPORTE_
@@ -23,7 +18,7 @@ _GRACIAS POR USAR AVERNUSBOT-MD SI NECESITAS AYUDA O ASISTENCIA EN LA INSTALACIO
 
 *---------------------*`
 
-await conn.sendFile(m.chat, pp, 'Hola.mp3', cat, fkontak)
+await conn.sendFile(m.chat, pp, 'Hola.mp3', smsowner, fkontak)
 }
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
