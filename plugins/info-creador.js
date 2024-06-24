@@ -17,7 +17,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'previewType': 'pdf',
         'title': 'NUMEROS OFICIALES',
         'body': wm,
-        'thumbnail': gataImg,
+        'thumbnail': imagen1,
         'sourceUrl': 'https://chat.whatsapp.com/Lb1iaTkpIip7aMG6PEuIJ9'}},
     'caption': text,
     'footer': wm,
