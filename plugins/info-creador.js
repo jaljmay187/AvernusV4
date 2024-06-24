@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `*_GRACIAS POR USAR ESTE BOT_*\n\n• Creador: Gabriel Ofc\n• Bot: AvernusBot-MD\n• Tipo: WhatsAppBot\n• Libreria: Baileys\n• Entorno: NodeJS\n\n> SOPORTE : SUPPORT\n\n◆ *ASISTENCIA : TELEGRAM\n> t.me/Avernus_SupportBot\n◆ *ASISTENCIA : CORREO*\n> *avernusbotwa@gmail.com*\n\n*------------------*\n\n◆ ıllıllı ＡＶＥＲＮＵＳ － ＢＯＴ ıllıllı\n\n*---------------------*``.trim();
   const buttonMessage= {
-    'document': {url: `https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04`},
+    'document': {url: `https://whatsapp.com/channel/0029VaiYqsM90x2u3k4WuA29`},
     'mimetype': `application/${document}`,
     'fileName': `「${mdk}」`,
     'fileLength': 99999999999999,
