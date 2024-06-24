@@ -1,4 +1,16 @@
-let handler  = async (m, { conn, usedPrefix, command }) => {
+function handler(m) { 
+   const data = global.owner.filter(([id, isCreator]) => id && isCreator) 
+   this.sendContact(m.chat, data.map(([id, name]) => [id, name]), estilo, m) 
+  
+ } 
+  
+ handler.help = ['owner'] 
+ handler.tags = ['main'] 
+ handler.command = ['owner', 'creator', 'creador', 'dueño']  
+  
+ export default handler
+
+/*let handler  = async (m, { conn, usedPrefix, command }) => {
 let picture = './media/menus/Menu1.jpg'
 let gata = `𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊𝙉 𝘿𝙀 AvernusBot (⁠◠⁠‿⁠◕⁠)`
 await 
