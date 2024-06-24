@@ -17,7 +17,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'previewType': 'pdf',
         'title': 'NUMEROS OFICIALES',
         'body': wm,
-        'thumbnail': imagen1,
+        'thumbnail': gataImg,
         'sourceUrl': 'https://chat.whatsapp.com/Lb1iaTkpIip7aMG6PEuIJ9'}},
     'caption': text,
     'footer': wm,
@@ -54,4 +54,4 @@ handler.help = ['creadorofc']
 handler.tags = ['glytmx']
 handler.command = /^(owner|creator|propietario|dueño|dueña|propietaria|dueño|creadora|creador)$/i
 
-export default handler
+export default handler*/
