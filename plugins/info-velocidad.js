@@ -70,27 +70,20 @@ let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀�
 ${muptime}
 ${readMore}
 *${htjava} C H A T S*
-• *${groupsIn.length}* \`\`\`Grupales : Groups\`\`\`
-• *${groupsIn.length}* \`\`\`Grupos Unidos : Join Groups\`\`\`
-• *${groupsIn.length - groupsIn.length}* \`\`\`Grupos Restantes : Groups Left\`\`\`
-• *${chats.length - groupsIn.length}* \`\`\`Chats Privados : Chats Private\`\`\`
-• *${chats.length}* \`\`\`Total Chats\`\`\`
+• *${groupsIn.length}* \`\`\`GRUPOS\`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`PRIVADOS\`\`\`
+• *${chats.length}* \`\`\`EN TOTAL DE CHATS CON EL BOT\`\`\`
 
 *${htjava} S E R V I D O R : S E R V E R*
-*🟢 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 RAM Libre:* ${format(freemem())}
+*❗️ RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+*❗️ RAM DISPONIBLE:* ${format(freemem())}
 
-*💻 Plataforma :* \`\`\`${os.platform()}\`\`\`
-*📡 Servidor :* _${os.hostname()}_
+*💻 PLATAFORMA:* \`\`\`${os.platform()}\`\`\`
+*📡 SERVIDOR:* _${os.hostname()}_
 ${readMore}
-*NodeJS Uso de memoria : Memory Usage*
+*NODEJS: USO DE LA MEMORIA*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
-
-${cpus[0] ? `*Uso total de la CPU*
-${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
-
-*CPU Core(s) Uso (${cpus.length} Core CPU)*
-${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}`
+`
 await conn.sendFile(m.chat, gataImg, 'pp.jpg', caption, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}})
 //conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', caption, fkontak)
 //await conn.sendButton(m.chat, wm, caption, gata.getRandom(), [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
