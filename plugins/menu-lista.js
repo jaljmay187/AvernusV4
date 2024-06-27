@@ -110,7 +110,7 @@ let menu = `
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
 ⊜ *GataCoins ➟* ${money} 🐈
-⊜ *Tokens ➟* ${joincount} 🪙`.trim()
+⊜ *Tokens ➟* ${joincount} 🪙 aa`.trim()
       
 const buttonParamsJson = JSON.stringify({
 title: "VER LISTA",
