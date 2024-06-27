@@ -39,7 +39,7 @@ if (new Date - user.lastmiming < 10000) return await conn.reply(m.chat, `*_❗�
     console.error(e)
     if (!stiker) stiker = e
   } finally {
-     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃 : 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭`, mediaType: 2, sourceUrl: accountsav, thumbnail: imagen1}}}, { quoted: m })
+     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '',m, true, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃 : 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐁𝐨𝐭`, mediaType: 2, sourceUrl: accountsgb, thumbnail: imagen1}}}, { quoted: m })
     else throw '⏤͟͟͞͞𝑬𝑵𝑽𝑰𝑬 𝑼𝑵𝑨 𝑰𝑴𝑨𝑮𝑬𝑵 / 𝑽𝑰𝑫𝑬𝑶 / 𝑮𝑰𝑭 / 𝑬𝑵𝑳𝑨𝑪𝑬 𝑭𝑶𝑹𝑴𝑨𝑻𝑶 .𝑱𝑷𝑮 𝑷𝑨𝑹𝑨 𝑹𝑬𝑨𝑳𝑰𝒁𝑨𝑹 𝑺𝑼 𝑺𝑻𝑰𝑪𝑲𝑬𝑹'
   }
 user.lastmiming = new Date * 1
