@@ -79,7 +79,7 @@ const numberToEmoji = { "0": "0️⃣", "1": "1️⃣", "2": "2️⃣", "3": "3�
 let lvl = level
 let emoji = Array.from(lvl.toString()).map((digit) => numberToEmoji[digit] || "❓").join("")
 
-const lugarFecha = moment().tz('America/Argentina')
+const lugarFecha = moment().tz('America/Lima')
 const formatoFecha = {
 weekdays: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
 months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
@@ -93,7 +93,7 @@ let menu = `
 
 > 𝐔𝐬𝐮𝐚𝐫𝐢𝐨: ${username}
 > 𝐍𝐢𝐯𝐞𝐥: ${lvl}
-> 𝐅𝐞𝐜𝐡𝐚: ${LugarFecha}
+> 𝐅𝐞𝐜𝐡𝐚: ${HorarioFecha}
 
 𝘚𝘌𝘓𝘌𝘊𝘊𝘐𝘖𝘕𝘌 𝘌𝘕 𝘓𝘈 𝘓𝘐𝘚𝘛𝘈 𝘋𝘌 𝘔𝘌𝘕𝘜𝘚 𝘓𝘈 𝘖𝘗𝘊𝘐𝘖́𝘕 𝘘𝘜𝘌 𝘋𝘌𝘚𝘌𝘈 𝘙𝘌𝘈𝘓𝘐𝘡𝘈𝘙 𝘠 𝘌𝘓 𝘔𝘌𝘕𝘜 𝘚𝘌 𝘓𝘖 𝘌𝘕𝘝𝘐𝘈𝘙𝘈
 
