@@ -13,8 +13,8 @@ render: (literal, symbol) => `${literal} ${symbol}B`,
 })
 let handler = async (m, { conn, usedPrefix, command, isRowner}) => {
 try {
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: accountsgb, thumbnailUrl: await(await fetch(gataMenu)).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(gataMenu)).buffer(), sourceUrl: accountsgb }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' ✨️', body: 'support group' , sourceUrl: accountsgb, thumbnailUrl: await(await fetch(gataMenu)).buffer() }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '░▒▓█ 𝓐𝓿𝓮𝓻𝓷𝓾𝓼𝓑𝓸𝓽-𝓜𝓓 █▓▒░ ', thumbnailUrl: await(await fetch(gataMenu)).buffer(), sourceUrl: accountsgb }}}
 let dos = [enlace, enlace2]
 
 let _muptime
@@ -56,15 +56,15 @@ irq: 0
 }})
 
 let old = performance.now()
-await conn.reply(m.chat, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}})
+await conn.reply(m.chat, `${eg}\n\n*_✨️ TEST DE VELOCIDAD..._*\n> ▰▰▰▱▱ _90%_`, fkontak, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' ░▒▓█ 𝓐𝓿𝓮𝓻𝓷𝓾𝓼𝓑𝓸𝓽-𝓜𝓓 █▓▒░ ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}})
 //await conn.sendButton(m.chat, wm, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
 
 let neww = performance.now()
 let speed = neww - old
-let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀𝘿 ${htka}*
+let caption = `*_⎚⎚⎚_ 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀𝘿 _⎚⎚⎚_*
 
-🚄 *${Math.round(neww - old)}* ms
-🚄 *${speed}* ms
+✨️ *${Math.round(neww - old)}* ms
+✨️ *${speed}* ms
 
 *${htjava}* 𝙏𝙄𝙀𝙈𝙋𝙊 𝘿𝙀 𝙀𝙅𝙀𝘾𝙐𝘾𝙄𝙊𝙉 : 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
 ${muptime}
@@ -72,7 +72,7 @@ ${readMore}
 *${htjava} C H A T S*
 • *${groupsIn.length}* \`\`\`GRUPOS\`\`\`
 • *${chats.length - groupsIn.length}* \`\`\`PRIVADOS\`\`\`
-• *${chats.length}* \`\`\`EN TOTAL DE CHATS CON EL BOT\`\`\`
+• *${chats.length}* \`\`\`EN TOTAL DE CHATS\`\`\`
 
 *${htjava} S E R V I D O R : S E R V E R*
 *❗️ RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -84,7 +84,7 @@ ${readMore}
 *NODEJS: USO DE LA MEMORIA*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
-await conn.sendFile(m.chat, gataImg, 'pp.jpg', caption, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}})
+await conn.sendFile(m.chat, gataImg, 'pp.jpg', caption, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' ░▒▓█ 𝓐𝓿𝓮𝓻𝓷𝓾𝓼𝓑𝓸𝓽-𝓜𝓓 █▓▒░ ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}})
 //conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', caption, fkontak)
 //await conn.sendButton(m.chat, wm, caption, gata.getRandom(), [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
 } catch (e) {
