@@ -25,7 +25,7 @@ global.asistencia = others.assistance_num
 global.bot = 'wa.me/𝐒𝐢𝐧𝐁𝐨𝐭-𝐌𝐃'
 global.cuentas = accounts.all
 
-global.canal1 = channels.channel
+global.canal = channels.channel
 global.canal2 = channels.channel2
 
 global.soporteAV = others.group_support
