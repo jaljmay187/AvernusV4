@@ -9,7 +9,7 @@ handler.all = async function (m) {
 global.key = ''
 
 // Cuentas
-const response = await fetch('https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/official_accounts.json')  
+const response = await fetch('https://raw.githubusercontent.com/glytglobal/AvernusV4/master/official_accounts.json')  
 const data = await response.json()
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
@@ -30,7 +30,7 @@ global.canal2 = channels.channel2
 global.canal3 = channels.channel3
 global.canal4 = channels.channel4
 
-global.soporteGB = others.group_support
+global.soporteAV = others.group_support
 global.grupo1 = groups.group1
 global.grupo2 = groups.group2
 global.grupo3 = groups.group3
@@ -44,20 +44,17 @@ global.grupo_collab3 = collaboration.group3
 global.grupo_collab4 = collaboration.group4
 
 global.patrocinador1 = sponsors.boxmine
-global.patrocinador2 = sponsors.cafirexos
+global.patrocinador2 = sponsors.infinity
 global.patrocinador3 = sponsors.vortexus
 global.patrocinador4 = sponsors.asif
 
-global.canales = [canal1, canal2, canal3, canal4].getRandom()
+global.canales = [canal, canal2].getRandom()
 global.welgata = [tk, ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb, tk, ths, asistencia].getRandom()
-global.redesMenu = [canal1, canal2, canal3, canal4, soporteGB, grupo1, grupo2, grupo3, grupo4, grupo5, grupo6, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
-global.accountsgb = [canal1, canal2, canal3, canal4, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
+global.redesMenu = [canal, canal2, soporteGB, grupo1, grupo2, grupo3, grupo4, grupo5, grupo6, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
+global.accountsgb = [canal, canal2, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
 
 var canalesInfo = [
-{ link: canal1, id: "1203663311153527781@newsletter", name: "✨️ UPDATES MDK ✨️" },
-{ link: canal2, id: "120363312848678787@newsletter", name: "✨️ TsuyuriBot-MD (Proximamente)✨" },
-{ link: canal3, id: "1203663311153527781@newsletter", name: "✨️ AvernusBot-MD ✨️" } 
-]
+{ link: canal2, id: "120363312848678787@newsletter", name: "✨️ TsuyuriBot-MD (Proximamente)✨" }]
 var indiceAleatorio = Math.floor(Math.random() * canalesInfo.length)
 var channelRD = canalesInfo[indiceAleatorio]
 
@@ -105,7 +102,8 @@ global.logogit = 'https://qu.ax/RzKF.jpg'
 global.gataVidMenu = ['https://qu.ax/AAvg.mp4', 'https://qu.ax/SeFS.mp4', 'https://qu.ax/NqZN.mp4'].getRandom()
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18].getRandom()
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13].getRandom()
-
+/*global.avIMG (PRÓXIMAMENTE)A*/
+  
 // Fake
 global.fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
