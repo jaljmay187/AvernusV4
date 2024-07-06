@@ -44,7 +44,7 @@ global.patrocinador4 = sponsors.asif
 
 global.canales = [canal, canal2].getRandom()
 global.welgata = [tk, ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb, tk, ths, asistencia].getRandom()
-global.redesMenu = [canal, canal2, soporteAV, grupo1, grupo2, grupo3, grupo4, grupo5, grupo6, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
+global.redesMenu = [canal, canal2, soporteAV, grupo1, grupo2, grupo3, grupo4, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
 global.accountsgb = [canal, canal2, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
 
 var canalesInfo = [
