@@ -22,7 +22,7 @@ global.tk = accounts.tiktok
 global.ths = accounts.threads
 global.paypal = accounts.paypal
 global.asistencia = others.assistance_num
-global.bot = 'wa.me/𝐒𝐢𝐧𝐁𝐨𝐭-𝐌𝐃'
+global.bot = '𝐒𝐢𝐧𝐁𝐨𝐭-𝐌𝐃'
 global.cuentas = accounts.all
 
 global.canal = channels.channel
@@ -44,11 +44,11 @@ global.patrocinador4 = sponsors.asif
 
 global.canales = [canal, canal2].getRandom()
 global.welgata = [tk, ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb, tk, ths, asistencia].getRandom()
-global.redesMenu = [canal, canal2, soporteGB, grupo1, grupo2, grupo3, grupo4, grupo5, grupo6, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
+global.redesMenu = [canal, canal2, soporteAV, grupo1, grupo2, grupo3, grupo4, grupo5, grupo6, md, ig, paypal, yt, asistencia, fb, tk].getRandom()
 global.accountsgb = [canal, canal2, tk, ig, yt, paypal, fb, ths, md, asistencia].getRandom()
 
 var canalesInfo = [
-{ link: canal2, id: "120363312848678787@newsletter", name: "✨️ TsuyuriBot-MD (Proximamente)✨" }]
+{ link: canal2, id: "120363312848678787@newsletter", name: "◭ MDK UPDATES ◮" }]
 var indiceAleatorio = Math.floor(Math.random() * canalesInfo.length)
 var channelRD = canalesInfo[indiceAleatorio]
 
